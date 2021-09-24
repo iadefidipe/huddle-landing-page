@@ -19,8 +19,6 @@ export const Logo = styled.img`
     @media (max-width: ${ ({theme}) => theme.tablet  }){
         min-width: 50px;
     }
-
-
 `
 
 

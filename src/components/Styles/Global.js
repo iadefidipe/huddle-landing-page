@@ -18,11 +18,12 @@ const GlobalStyles =  createGlobalStyle`
          font-size: 1.15em;
          margin: 0;
         }
-        p{
+    p{
             opacity: 0.6;
             line-height: 1.5;
         }
-        img{
+
+    img{
             max-width: 100%;
         }
 
