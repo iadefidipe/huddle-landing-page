@@ -9,7 +9,13 @@ export const Button = styled.button`
     font-weight: 700;
     padding: 15px 60px;
     background-color: ${ ({ bg, theme }) => bg || theme.colors.body  };
-    color: ${ ({ color }) => color || '#333' };
+    color: ${ ({ color}) => color || '#333' };
+
+    @media (max-width: ${ ({theme}) => theme.tablet  }){
+        padding: 15px 30px;
+
+        
+    }
 
     
 

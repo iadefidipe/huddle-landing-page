@@ -16,9 +16,9 @@ const theme = {
   font : {
     poppins: `'Poppins', sans-serif `,
     openSans: `'Open Sans', sans-serif `,
+  },
+  tablet: '768px'
 
-
-  }
 }
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
     <ThemeProvider theme = {theme} >
       <>
       <GlobalStyles />
-        <Header />
+        <Header theme = {theme} />
         <Container>
           <h1> Hello world</h1>
         </Container>
