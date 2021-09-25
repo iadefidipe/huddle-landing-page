@@ -4,6 +4,7 @@ import {Container} from './components/Styles/Container.styled'
 import GlobalStyles from './components/Styles/Global';
 import Content from './components/Content'
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 const theme = {
   colors:{
@@ -35,6 +36,7 @@ function App() {
             // <img src={ `./images/${item.image}`} alt="" />
           )  )}
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
     
